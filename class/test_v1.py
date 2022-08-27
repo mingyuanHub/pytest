@@ -9,3 +9,7 @@ class TestClass:
     def test_two(self):
         x = "hello"
         assert hasattr(x, "check")
+
+    def test_three(self):
+        x = "hello3"
+        assert hasattr(x, "check3")
