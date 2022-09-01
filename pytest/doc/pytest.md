@@ -24,6 +24,9 @@ pytest ./tp
 #运行指定测试
 pytest test_mod.py::TestClass::test_method
 
+#支持print输出 -s
+pytest ./ -s
+
 #将运行所有用@pytest.mark修饰的测试
 pytest -m slow
 
@@ -44,7 +47,7 @@ pytest_assertrepr_compare
 
  ```
 
-## 其他
+## 3 其他
 
 ```python
 
