@@ -8,5 +8,5 @@ def test_set_comparison():
     assert set1 == set2
 
 
-if __name__ == "__mian__":
+if __name__ == "__main__":
     pytest.main(["-s", "test_set.py"])
