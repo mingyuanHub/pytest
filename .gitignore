@@ -3,3 +3,7 @@ __pycache__
 pytest/test/a.py
 .idea/
 .pytest_cache/
+build/
+*.spec
+*.exe
+*.rar
